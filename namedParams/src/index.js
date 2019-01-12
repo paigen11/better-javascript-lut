@@ -9,6 +9,7 @@ document.getElementById('app').innerHTML = `
 
 // when it comes to naming: consistency is king
 // clear, searchable and obvious
+// use var names that make sense for data
 
 // constant variables uppercase syntax common
 const BASE_SALARY = 16000;

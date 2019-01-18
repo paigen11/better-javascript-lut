@@ -6,3 +6,11 @@ document.getElementById('app').innerHTML = `
   for more info about Parcel.
 </div>
 `;
+
+// doc resource https://developer.mozilla.org/en-US/
+
+const heading = document.createElement('h1');
+heading.innerHTML = '<span>Hello</span> ' + document.URL;
+document.body.appendChild(heading);
+
+console.log(document.URL);
